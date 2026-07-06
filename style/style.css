@@ -8,22 +8,44 @@ nav {
 .containers {
     max-width: 1200px;
     margin: auto;
-    padding-left:15px;
-    padding-right:15px;
-}
-li{
-    list-style: none;   
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-a{
+li {
+    list-style: none;
+}
+
+a {
     text-decoration: none;
 }
 
 header {
     min-height: 65px;
 }
-
-.link-icon{
-    font-size: 30px;
-    color:#0077b5
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.active{
+    text-decoration: underline;
+}
+.link-icon {
+    font-size: 3rem;
+    color: #0077b5;
+}
+
+input[type-search]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+
+.user-img{
+    width:3rem;
+    height:3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
