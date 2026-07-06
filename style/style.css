@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+:root{
+    --mainColor: #666666
+}
 nav {
     flex: 1;
     justify-content: flex-end;
@@ -27,6 +29,7 @@ header nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-left: 1px solid #666666;
 }
 .active{
     text-decoration: underline;
@@ -49,3 +52,6 @@ input[type-search]::-webkit-search-cancel-button {
     border-radius: 50%;
 }
 
+nav  div  i{
+    color:var(--mainColor);
+}
