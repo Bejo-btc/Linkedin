@@ -6,6 +6,14 @@ nav {
 }
 
 
+li{
+    list-style: none;   
+}
+
+a{
+    text-decoration: none;
+}
+
 header {
     min-height: 65px;
 }
