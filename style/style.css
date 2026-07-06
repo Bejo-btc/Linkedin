@@ -5,7 +5,12 @@ nav {
     justify-content: flex-end;
 }
 
-
+.containers {
+    max-width: 1200px;
+    margin: auto;
+    padding-left:15px;
+    padding-right:15px;
+}
 li{
     list-style: none;   
 }
@@ -18,23 +23,7 @@ header {
     min-height: 65px;
 }
 
-header .bars {
-    font-size: 22px;
-}
-
-@media (min-width :768px) {
-    header .bars {
-        display: none;
-    }
-}
-
-header nav .bars:hover+ul {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    right: 0px;
-    padding: 15px;
-    width: 30%;
-    text-align: right;
+.link-icon{
+    font-size: 30px;
+    color:#0077b5
 }
